@@ -67,7 +67,7 @@ bool get_question_check_answer(const int& current_sector){
                             "answer11.txt","answer12.txt","answer13.txt"};    
 
     answer_file.open(answers[current_sector-1]);
-    
+
     string answer;
     answer_file >> answer;
     answer_file.close();
@@ -104,5 +104,6 @@ int main(){
      }
      else {
         cout << "Победили телезрители";
+        
      }
 }
